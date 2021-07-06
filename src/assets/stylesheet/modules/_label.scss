@@ -1,0 +1,40 @@
+.sale-off {
+  @extend .label;
+  padding: 16px 10px;
+  position: absolute;
+  top: 129px;
+  left: 40px;
+  z-index: 10;
+}
+.sale-off-2 {
+  @extend .label;
+  padding: 6px 10px;
+  position: absolute;
+  top: 24px;
+  left: 18px;
+  z-index: 10;
+}
+@media (max-width: $sm) {
+  .sale-off {
+    padding: 2px 4px;
+    position: absolute;
+    top: 129px;
+    left: 40px;
+    z-index: 10;
+    font-size: 8px;
+    top: 113px;
+    left: 16px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: $sm) {
+  .sale-off-2 {
+    padding: 2px 4px;
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    z-index: 10;
+    font-size: 8px;
+    line-height: 1.5;
+  }
+}

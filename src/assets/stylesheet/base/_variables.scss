@@ -1,0 +1,25 @@
+$color: (
+  color-primary: #fbb03b,
+  text-white: #ffffff,
+  text-black: #333333,
+  text-note: #a8a8a8,
+  text-detail: #808080,
+  color-border: #c4c4c4,
+);
+$font-size: (
+  xxs: 10px,
+  xs: 12px,
+  xss: 13px,
+  s: 14px,
+  ss: 16px,
+  m: 18px,
+  ms: 20px,
+  l: 24px,
+  ls: 32px,
+  lss: 48px,
+  xxl: 72px,
+);
+$col-max: 12;
+$sm: 375px;
+$md: 720px;
+$lg: 960px;

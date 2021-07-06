@@ -1,0 +1,31 @@
+.label {
+  background-color: red;
+  color: map-get($color, text-white);
+  font-size: map-get($font-size, xs);
+  font-weight: 700;
+  border-radius: 20px;
+}
+.btn-common {
+  font-size: map-get($font-size, xss);
+  font-weight: 700;
+  color: map-get($color, text-black);
+}
+.flex-between {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linear-gradient {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: "";
+}

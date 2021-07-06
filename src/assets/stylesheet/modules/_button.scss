@@ -1,0 +1,108 @@
+.btn-default {
+  @extend .btn-common;
+  border-radius: 33px;
+  background-color: map-get($color, text-white);
+  padding: 14px 19px;
+}
+.btn-primary {
+  @extend .btn-common;
+  padding: 14px 27px;
+  background-color: map-get($color, color-primary);
+  border-radius: 56px;
+  border: none;
+  margin-left: 40px;
+}
+.img-btn-group {
+  position: relative;
+}
+.btn-add-cart {
+  position: absolute;
+  margin-left: 0px;
+  display: none;
+  top: 300px;
+  left: 50%;
+  cursor: pointer;
+  transform: translateX(-50%);
+  &:hover {
+    display: block;
+  }
+}
+.img-respond {
+  width: 100%;
+  height: 385px;
+  &:hover ~ .btn-add-cart {
+    display: block;
+    transition: 1s;
+  }
+}
+.btn-sample {
+  position: absolute;
+  text-decoration: none;
+  padding: 14px 19px;
+  line-height: 1.5;
+  font-weight: 700;
+  top: 258px;
+  left: 40px;
+  z-index: 10;
+}
+.btn-icon {
+  display: flex;
+}
+.btn-remove {
+  color: white;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 50px;
+  font-size: 18px;
+}
+.remove-item {
+  cursor: pointer;
+}
+
+.add-more-item {
+  cursor: pointer;
+}
+@media (max-width: $sm) {
+  .btn-sample {
+    position: absolute;
+    text-decoration: none;
+    padding: 3px 11px;
+    top: 180px;
+    left: 16px;
+    z-index: 10;
+  }
+}
+@media (max-width: $sm) {
+  .btn-primary {
+    padding: 7px 18px;
+    background-color: map-get($color, color-primary);
+    border-radius: 56px;
+    border: none;
+    font-size: map-get($font-size, xss);
+    font-size: bold;
+    margin-top: 24px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: $sm) {
+  .btn-default {
+    border-radius: 33px;
+    background-color: map-get($color, text-white);
+    color: map-get($color, text-black);
+    font-size: map-get($font-size, xss);
+    font-size: bold;
+  }
+}
+.btn-show-more {
+  padding: 14px 31px;
+  text-decoration: none;
+  position: absolute;
+  top: 96px;
+  right: 0;
+  border: 1px solid map-get($color, border-color);
+}
+.btn-icon {
+  display: flex;
+}

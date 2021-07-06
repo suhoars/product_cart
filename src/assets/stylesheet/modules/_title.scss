@@ -1,0 +1,65 @@
+.title-benefit-banner {
+  font-size: map-get($font-size, s);
+  font-weight: bold;
+}
+.title-today {
+  @extend .flex-center;
+  font-size: map-get($font-size, ls);
+  font-weight: 300;
+}
+.title-benefit {
+  @extend .title-text2;
+  margin-bottom: 16px;
+  color: map-get($color, text-black);
+}
+.note-text {
+  font-size: map-get($font-size, xs);
+}
+.note-text2 {
+  font-size: map-get($font-size, s);
+  width: 240px;
+  color: map-get($color, text-detail);
+}
+.title-text2 {
+  font-size: map-get($font-size, ss);
+  font-weight: bold;
+}
+h2 {
+  margin-bottom: 40px;
+  font-weight: 300px;
+}
+h5 {
+  font-weight: 700;
+}
+h3 {
+  font-weight: 300;
+}
+@media (max-width: $sm) {
+  .note-text2 {
+    font-size: map-get($font-size, xss);
+    width: 240px;
+    color: map-get($color, text-detail);
+  }
+}
+@media (max-width: $sm) {
+  .title-today {
+    display: flex;
+    justify-content: start;
+    font-size: map-get($font-size, m);
+    font-weight: 300;
+  }
+}
+@media (max-width: $sm) {
+  h2 {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: $sm) {
+  .title-benefit {
+    font-size: map-get($font-size, xs);
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    color: map-get($color, text-black);
+  }
+}
