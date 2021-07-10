@@ -41,7 +41,7 @@ export const ProductInCart = (props: PropsInterface) => {
     <>
       <div className="left-show-cart">
         <Link to="#">
-          <img src={item.image} alt="summer clothes" className="img-cart-product" />
+          <img src="https://i.picsum.photos/id/459/200/300.jpg?hmac=4Cn5sZqOdpuzOwSTs65XA75xvN-quC4t9rfYYyoTCEI" alt="summer clothes" className="img-cart-product" />
         </Link>
       </div>
       <div className="center-show-cart">

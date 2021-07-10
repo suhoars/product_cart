@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from '../../../assets/photos/logo.png';
 
 const TheFooter = () => {
@@ -38,29 +39,29 @@ const TheFooter = () => {
                   <p className="title-text-footer">Shopping online</p>
                   <ul className="shopping-online-list">
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Order Status
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Shipping and Delivery
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Returns
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Payment Options
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Contact Us
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -74,29 +75,29 @@ const TheFooter = () => {
                   <p className="title-text-footer">Information</p>
                   <ul className="infor-list">
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Gift Cards
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Find a store
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Newsletter
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Bacome a member
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Site feedback
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -110,14 +111,14 @@ const TheFooter = () => {
                   <p className="title-text-footer">Contact</p>
                   <ul className="contact-list">
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         store@uikit.com
-                      </a>
+                      </Link>
                     </li>
                     <li className="footer-content-right">
-                      <a href="#" className="text-content-right">
+                      <Link to="#" className="text-content-right">
                         Hotline: +1 131 138 138
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

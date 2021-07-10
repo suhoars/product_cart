@@ -3,6 +3,7 @@ import showNow from '../../../assets/photos/show-now.png';
 import freeShip from '../../../assets/photos/free-shipping.png';
 import happy from '../../../assets/photos/noun_Happy.png';
 import guarantee from '../../../assets/photos/guarantee_.png';
+import { Link } from 'react-router-dom';
 
 const TheBanner = () => {
   return (
@@ -13,10 +14,10 @@ const TheBanner = () => {
           <h1 className="main-title">
             Sale of the <span className="text-summer">summer</span> collection
           </h1>
-          <a href="#" className="shop-now">
+          <Link to="#" className="shop-now">
             <img src={showNow} alt="shop now" className="next-page-icon" />
             <span className="shop-now-link">SHOP NOW</span>
-          </a>
+          </Link>
         </div>
       </div>
       <ul className="benefit-shopping">

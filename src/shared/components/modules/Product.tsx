@@ -40,7 +40,7 @@ export const Product = (props: PropsInterface) => {
           </span>
       }
       <div className="img-btn-group">
-        <img src={item.image} alt="Summer vibes" className="img-respond" />
+        <img src="https://i.picsum.photos/id/459/200/300.jpg?hmac=4Cn5sZqOdpuzOwSTs65XA75xvN-quC4t9rfYYyoTCEI" alt="Summer vibes" className="img-respond" />
         <button className="btn btn-primary btn-add-cart" onClick={() => dispatch(handleCart(item, 'ADD_TO_CART'))}>
         {ADD_TO_CART}
        </button>
