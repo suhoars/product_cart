@@ -23,8 +23,9 @@ export const Category = (props: cateInterface) => {
     const categoryItem = categories.find((category: ICategories) => category.id === categoryID);
     setCategory(categoryItem)
   }, [categories, categoryID]);
+  console.log(category)
   return (
-    <h4 className="category-tag">{category?.name}</h4>
+    <h4 className="category-tag">{category?.category}</h4>
   );
 };
 
