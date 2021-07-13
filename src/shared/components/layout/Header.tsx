@@ -19,7 +19,7 @@ const TheHeader = () => {
     <header className="header">
       <div className="page-header container">
         <div className="header-left">
-          <Link to="#">
+          <Link to="/">
             <img src={logo} alt="e-shop" className="logo-respond" />
           </Link>
         </div>
